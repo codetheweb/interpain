@@ -1,6 +1,8 @@
 # interpain
 
-Automatically complain to your ISP (Comcast, CenturyLink, etc) about your internet speed and/or automatically log it to ThingSpeak
+Automatically complain to your ISP (Comcast, CenturyLink, etc) about your internet speed and/or automatically log it to ThingSpeak.
+
+More polished version of [pastebin.com/WMEh802V](http://pastebin.com/WMEh802V).
 
 ## Install
 
