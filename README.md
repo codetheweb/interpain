@@ -19,6 +19,13 @@ cd interpain
 sh setup
 ```
 Add ThingSpeak and/or Twitter credentials (see below section) to `main.py` with `nano main.py` (don't forget to update the speeds you pay for too!). If you don't want to use Twitter, set the `threshold` to `targetDownload`.
+Then add a line to crontab with `crontab -e` that looks something like:
+
+```
+*/30 * * * * env -i sh /home/pi/interpain/run.sh >/dev/null 2>&1
+```
+
+This runs the script every half hour.
 
 ## Credentials
 
