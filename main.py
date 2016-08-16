@@ -9,24 +9,20 @@ import thingspeak
 
 #### Paramaters ####
 ## ThingSpeak (leave blank if you don't want to use)
-thgspkChannelId  = '144852'           # Channel ID
-thngspkWriteKey  = 'BJIXS84NDQ0HA3V7' # Write ID
+thgspkChannelId  = '' # Channel ID
+thngspkWriteKey  = '' # Write ID
 
 ## Twitter
-twitterAccessToken       = '764221380950953984-MSCdmOogNOIH00bUiDE3wQfHGPleNKL'
-twitterAccessTokenSecret = 'ODSbNoDfBGluzkXtSFwphcOT8Ah0QyFIXFexa7L5s7wFn'
-twitterConsumerKey       = 'iD6FTsTOtz0d31R0WW81Jmz0m'
-twitterConsumerKeySecret = 'FIZdbevu0nrhNhpoL18bq0ysv8Air3HraJ6TvWopumzsJIRFkX'
+twitterAccessToken       = ''
+twitterAccessTokenSecret = ''
+twitterConsumerKey       = ''
+twitterConsumerKeySecret = ''
 
 ## Handle
-#handleMain  = '@Comcast' # replace with your ISP
-#handleExtra = '@ComcastCares @xfinity' # any other handles you want
-#tags        = '#speedtest' # any tags you want
-#location    = 'Bloomington, MN' # city and state
-handleMain = ''
-handleExtra = ''
-tags = '#speedtest'
-location = 'Space'
+handleMain  = '@Comcast' # replace with your ISP
+handleExtra = '@ComcastCares @xfinity' # any other handles you want
+tags        = '#speedtest' # any tags you want
+location    = 'Space' # city and state
 
 ## SYPF (Speed You Pay For)
 targetDownload = 75
